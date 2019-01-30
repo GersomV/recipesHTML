@@ -1,0 +1,51 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+.hero {
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+.container {
+  margin: 30px 20% 0 20%;
+  font-size: 1.3rem;
+}
+
+.pictograms {
+  display: flex;
+  justify-content: center;
+}
+
+.line {
+  border-bottom: 1px solid grey;
+  margin-bottom: 50px;
+}
+
+ul li:before {
+    content: '~ ';
+}
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.intro {
+  font-size: 1.5rem;
+
+}
